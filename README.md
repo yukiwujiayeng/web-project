@@ -18,27 +18,7 @@ group_project
   </iframe>
 
   <p id="underpic">Infused with rich textures in contrasting tones, the Fall-Winter 2019/20 looks reveal a sophisticated take on wintry inspirations.</p>
-  <div class="row">
-    <div class="column">
-      <img src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_446/FSH-1568105776042-19khomecollection02.jpg">
-    </div>
-    <div class="column">
-      <img src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_360/FSH-1564414696451-scrollanimhandbags03.jpg">
-      <img src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_360/FSH-1564414694538-scrollanimhandbags02.jpg">
-    </div>
-    <div class="column">
-      <img src="https://assets.vogue.com/photos/5c7e7714e632722d22526578/master/pass/ADR1986.jpg">
-      <img src="https://assets.vogue.com/photos/5c7e772364fa4b2d2dd51839/master/pass/ADR1997.jpg">
-      <img src="https://assets.vogue.com/photos/5c7e7727e857282d43c1046f/master/pass/ADR2019.jpg">
-      <img src="https://assets.vogue.com/photos/5c7e77525f91f02d6b73ae03/master/pass/ADR2085.jpg">
-    </div>
-    <div class="column">
-        <img src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_692/FSH-1564414115445-19khomecollection05.jpg" >
-      <img src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_374/FSH-1564414576355-scrollanimhoundstooth08.jpg">
-
-    </div>
-  </div>
-  <!--img id="pic1" src="https://www.chanel.com/images/q_auto,f_auto,fl_lossy,dpr_auto/w_360/FSH-1564414105004-19khomecollection00.jpg"--!>
+ 
   <h2>LOOK BOOK</h2>
   <p id="underlookbook">A COLOUR PALETTE INSPIRED BY A WINTER LANDSCAPE</p>
   <div class="horizontal-scroll-wrapper squares" style="max-width:600px">
