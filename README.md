@@ -3,11 +3,17 @@ we have 7 page of website overall
 7 html code and 3 CSS code
 
 1.main
+
 2.colors main
+
 3.coral
+
 4.Ultra Violet
+
 5.Chanel fall/winter 2019/2020
+
 6.link2( choose a fashionshow you like)
+
 7.About us
 
 You are welcome to add page if you want. Just link to the product.css in the header and copy the code below right after <body> will built up the connections between each pages (remember to add your link inside it as well! so i can add it to all the other pages)
