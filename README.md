@@ -1,49 +1,41 @@
-# web-project
-group_project
-<!DOCTYPE html>
-<html>
-<head>
+I have finished editting all my HTML and CSS
+we have 7 page of website overall
+7 html code and 3 CSS code
 
-  <link rel="stylesheet" type="text/css" href="style2.css">
+1.main
+2.colors main
+3.coral
+4.Ultra Violet
+5.Chanel fall/winter 2019/2020
+6.link2( choose a fashionshow you like)
+7.About us
 
-  <title>CHANEL_Fall/Winter_2019/20</title>
+You are well come to add page if you want. Just link to the product.css in the header and copy the code below right after <body> will built up the connections between each pages (remember to add your link inside it as well! so i can add it to all the other pages)
 
-</head>
-<body>
+<nav class="site-header sticky-top py-1">
+    <div class="container1 d-flex flex-column flex-md-row justify-content-between">
 
-  <h1>CHANEL</h1>
-
-  <iframe width="620" height="415"
-  src="https://www.youtube.com/embed/dmL2lTC4oto">
-  </iframe>
-
-  <p id="underpic">Infused with rich textures in contrasting tones, the Fall-Winter 2019/20 looks reveal a sophisticated take on wintry inspirations.</p>
- 
-  <h2>LOOK BOOK</h2>
-  <p id="underlookbook">A COLOUR PALETTE INSPIRED BY A WINTER LANDSCAPE</p>
-  <div class="horizontal-scroll-wrapper squares" style="max-width:600px">
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-1-8819562774558.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-2-8819560775710.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-3-8819560644638.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-4-8819562872862.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-5-8819557335070.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-6-8819558875166.jpg"style="width:100%"></div>
-  </div>
-  <p id="underlookbook">BRIGHTENED WITH BLOCKS OF VIVID TONES</p>
-  <div class="horizontal-scroll-wrapper squares" style="max-width:600px">
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-33-8819561463838.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-34-8819561758750.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-38-8819560087582.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-41-8819556679710.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-42-8819562381342.jpg"style="width:100%"></div>
-    <div class="card"><img src="https://www.chanel.com/images/f_auto,q_auto,c_scale,w_4096/c_crop,h_3015,w_2040,x_1028,y_148/q_auto,f_auto,fl_lossy,dpr_auto/w_922/fall-winter-2019-20-44-8819561136158.jpg"style="width:100%"></div>
-  </div>
-  <div class="container">
-    <img class="container__image" src=" https://dazedimg-dazedgroup.netdna-ssl.com/480/azure/dazed-prod/1260/1/1261946.jpg" style="width:20%">
-    <div class="class="container__text"">
-      <p>In a show that was somber yet serene, a capturing of airiness and substance, of shrugged-on elegance and insuppressible delight, the farewell to the immense talent of Karl Lagerfeld was framed just as he’d imagined. He took us to a place high in the mountains on a beautiful day. It was a snow-bound haven—a slice of Chanel heaven, viewed from a distance that was poignantly difficult to bear.</P>
-      <p>There was an icicle-like tinkling on the soundtrack. Models assembled, one by one, on the snow-covered steps of a faux alpine hostelry, the Chanel Gardenia. It was hard, the suppressed anticipation of what was going to happen next. What is the correct form for honoring someone at a fashion show, someone who was always so fixed on waving away vulgar sentimentality, and who always had something hilariously skewering to say about the posthumous hagiographies of anyone he cared to mention? Karl Lagerfeld was the least sentimental of people. He loved his job and always regarded it as the task of continually living in the present. He reveled in letting it be known he had a “contract for life” with Chanel, which he enjoyed to the maximum moment.</p>
+      <a class="py-2 d-none d-md-inline-block"   style="padding-right: 300px"; href="mainindex.html">Main</a>
+      <div class="dropdown">
+        <a class="py-2 d-none d-md-inline-block" style="padding-right: 300px" ;href="colors-index.html">Colors</a>
+        <div class="dropdown-content">
+          <a href="coral-index.html">Living Coral</a>
+          <a href="ultraviolet-index.html">Ultra Violet</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="py-2 d-none d-md-inline-block" style="padding-right: 300px" >FashionShow</a>
+        <div class="dropdown-content">
+          <a href="index.html">CHANEL Fall/Winter 2019/20</a>
+          <a href="fashionshow2-index.html">Link 2</a>
+        </div>
+      </div>
+      <a class="py-2 d-none d-md-inline-block" style="padding-right: 300px"; href="aboutus-index.html">About</a>
     </div>
-  </div>
-</body>
-</html>
+  </nav>
+  
+  product.css link to 1,3,4,7
+  style2.css link to 5,6
+  
+  
+  
