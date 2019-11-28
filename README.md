@@ -34,7 +34,7 @@ You are welcome to add page if you want. (e.g a main page for fashionshows)Just 
         <div class="dropdown-content">
           <a href="index.html">CHANEL Fall/Winter 2019/20</a>
           <a href="fashionshow2-index.html">Link 2</a> 
-          !***************remember to give a name to link2*************************************************!
+          !***************remember to give a name of link2*************************************************!
         </div>
       </div>
       <a class="py-2 d-none d-md-inline-block" style="padding-right: 300px"; href="aboutus-index.html">About</a>
