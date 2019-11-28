@@ -48,7 +48,7 @@ You are welcome to add page if you want. Just link to the product.css in the hea
   While you are editing the about us you should download the aboutus-index.html and product.css.
   
   
-  ''     ''  ''    ''    ''  Link2    ''   ''     ''     ''  fashionshow2-index.html and style2.css
+ While you are editing the Link2 you should download the fashionshow2-index.html and style2.css
   
   Don't Chane any existing code in the CSS FILE!!!! AS it might caused all the 1,3,4,7 page change!
   Just add in new code in the CSS file, and use diffrent "Class" name. 
