@@ -16,7 +16,7 @@ we have 7 page of website overall
 
 7.About us
 
-You are welcome to add page if you want. Just link to the product.css in the header and copy the code below right after <body> will built up the connections between each pages (remember to add your link inside it as well! so i can add it to all the other pages)
+You are welcome to add page if you want. (e.g a main page for fashionshows)Just link to the product.css in the header and copy the code below right after <body> will built up the connections between each pages (remember to add your link inside it as well! so i can add it to all the other pages)
 
 <nav class="site-header sticky-top py-1">
     <div class="container1 d-flex flex-column flex-md-row justify-content-between">
