@@ -45,10 +45,10 @@ You are welcome to add page if you want. (e.g a main page for fashionshows)Just 
   style2.css link to 5,6
   carousel.css link to 2
   
-  While you are editing the "about us" page you should download the aboutus-index.html and product.css.
+  While you are editing the "about us" page you should download the aboutus-index.html and product.css files.
   
   
- While you are editing the "Link2" page you should download the fashionshow2-index.html and style2.css
+ While you are editing the "Link2" page you should download the fashionshow2-index.html and style2.css files.
   
   Don't Chane any existing code in the CSS FILE!!!! AS it might caused all the 1,3,4,7 page change!
   Just add in new code in the CSS file, and use diffrent "Class" name. 
