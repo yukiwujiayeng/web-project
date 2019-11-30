@@ -128,3 +128,36 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+/* Create three unequal columns that floats next to each other */
+.aboutuscolumn {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.aboutuscolumn.side {
+  width: 25%;
+  font-size: 20px;
+}
+
+/* Middle column */
+.aboutuscolumn.middle {
+  width: 50%;
+  font-size: 20px;
+
+}
+
+/* Clear floats after the columns */
+.aboutusrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .aboutuscolumn.side, .aboutuscolumn.middle {
+    width: 100%;
+  }
+}
