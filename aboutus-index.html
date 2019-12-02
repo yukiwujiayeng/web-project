@@ -8,7 +8,7 @@
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
 </head>
 
 <body>
@@ -39,16 +39,27 @@
   <p>Yuki WU</p>
   <p>Milly Henderson</p>
   <p>Lea Racine</p>
+  
+  <div class="contact-form">
   <h2>Contact Form</h2>
   <p id="validationMessage"></p>
-  <form>
-  <form action="https://www.enformed.io/biezggmn" method="POST" >
-  Name<br>
-  <input id="name" type="text" name="userName"/>
-  <br>Email<br>
-  <input id="email" type="text" name="userEmail"/><br><br>
-  <button type="button" onclick="return recievedSubmit()">Submit</button>
+  <form action="https://www.enformed.io/biezggmn" method="POST">
+
+    <div class = "form-group">
+      <p>Name</p>
+      <input id="userName" name="user_Name" size="4" type="text" class="form-control"/>
+    </div>
+
+    <div class = "form-group">
+      <p>Email</p>
+      <input id="userEmail" name="email" size="35" type="text" class="form_control"/>
+    </div>
+
+    <input type="hidden" name="*default_email" value="vetementscompany@gmail.com" />
+    <input type="hidden" name="*reply" value="email" />
+    <button type="submit">Submit</button>
   </form>
+  </div>
 </div>
 
 <div class="aboutuscolumn middle">
