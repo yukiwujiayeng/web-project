@@ -75,6 +75,34 @@
 }
 
 
+input[type=text] {
+  height:30px;
+  width:400px;
+  display: inline-block;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 80%;
+}
+
+
+.left {
+    float: left;
+    position: relative;
+
+}
+
+.right {
+    float: right; /*<-change to left */
+    position: relative;
+
+}
+
+.contact-form{
+  text-align: center
+}
 
 .text1{
   text-align: center;
