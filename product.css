@@ -75,7 +75,7 @@
 }
 
 
-input[type=text] {
+input[type=text], input[type=email] {
   height:30px;
   width:400px;
   display: inline-block;
@@ -83,14 +83,10 @@ input[type=text] {
   transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
-  width: 40%;
+input[type=text]:focus, input[type="email"]:focus {
+  width: 40%
 }
 
-
-.contact-form{
-  text-align: center
-}
 
 .text1{
   text-align: center;
