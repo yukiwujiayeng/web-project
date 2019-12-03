@@ -73,7 +73,17 @@
   color: white;
 
 }
+input[type=text], input[type=email] {
+  height:30px;
+  width:300px;
+  display: inline-block;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
 
+input[type=text]:focus, input[type="email"]:focus {
+  width: 40%
+}
 
 
 .text1{
