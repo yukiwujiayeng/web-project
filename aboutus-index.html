@@ -41,13 +41,17 @@
    <p>Lea Racine</p>
  </div>
 
+
+
  <div class="aboutuscolumn middle">
    <h2>About us</h2>
    <p>Our name Vêtements is a french translation of the word clothing.</p>
    <p>The website is centred around high fashion clothing brands, exploring specific seasons that stood out.
   Highlighting successful runway shows as well as isolating relevant colour themes and to
-  help users easily view products belonging to various brands. Our interest in fashion derives from the idea of diversity. Clothing can be an art form that allows people of all genders, races, sizes, backgrounds, walks of life to feel good about themselves and look their best. Trends are constantly changing and yet the cycle of historic designs tend to impact present and future stylistic choices. Fashion is a creative outlet in which we can open our mind and change beauty standards of our society. There is a reason in which people are interested in how they present themselves and project the way they want to be seen by others.</p>
+  help users easily view products belonging to various brands.Our interest in fashion derives from the idea of diversity. Clothing can be an art form that allows people of all genders, races, sizes, backgrounds, walks of life to feel good about themselves and look their best. Trends are constantly changing and yet the cycle of historic designs tend to impact present and future stylistic choices. Fashion is a creative outlet in which we can open our mind and change beauty standards of our society. There is a reason in which people are interested in how they present themselves and project the way they want to be seen by others.</p>
  </div>
+
+
 
  <div class="aboutuscolumn side">
    <h2>Address</h2>
@@ -58,6 +62,39 @@
  </div>
 </div>
 
+
+
+  <form id="contactForm" action="https://www.enformed.io/biezggmn" method="POST">
+    <!--https://itnext.io/https-medium-com-joshstudley-form-field-validation-with-html-and-a-little-javascript-1bda6a4a4c8c-->
+    <h2>Contact Form</h2>
+    <label>Name</label><br>
+    <input type="text" name="name" id="userName"><br>
+    <label>Email</label><br>
+    <input type="email" name="email" id="emailField" required>
+    <input type="hidden" name="*default_email" value="vetementscompany@gmail.com" />
+    <input type="hidden" name="*reply" value="email" />
+    <input type="hidden" name="*redirect" value="https://yukiwujiayeng.github.io" />
+    <button id="submitButton" disabled>Submit</button>
+  </form>
+  <label id="ErrorMessage"></label>
+
+  <script>
+  const emailField = document.getElementById('emailField');
+  const submitButton = document.getElementById('submitButton');
+  emailField.addEventListener('keyup', function (event) {
+    isValidEmail = emailField.checkValidity();
+    if ( isValidEmail ) {
+      submitButton.disabled = false;
+      document.getElementById('ErrorMessage').innerHTML = "";
+    } else {
+      document.getElementById('ErrorMessage').innerHTML = "Invalid Email";
+      submitButton.disabled = true;
+    }
+  });
+  submitButton.addEventListener('click', function (event) {
+    contactForm.submit();
+  });
+  </script>
 
 
 </body>
