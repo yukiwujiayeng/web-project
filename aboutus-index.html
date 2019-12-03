@@ -50,6 +50,7 @@
     <input type="email" name="email" id="emailField" required>
     <input type="hidden" name="*default_email" value="vetementscompany@gmail.com" />
     <input type="hidden" name="*reply" value="email" />
+    <input type="hidden" name="*redirect" value="https://yukiwujiayeng.github.io" />
     <button id="submitButton" disabled>Submit</button>
   </form>
   <label id="ErrorMessage"></label>
@@ -57,10 +58,8 @@
   <script>
   const emailField = document.getElementById('emailField');
   const submitButton = document.getElementById('submitButton');
-
   emailField.addEventListener('keyup', function (event) {
     isValidEmail = emailField.checkValidity();
-
     if ( isValidEmail ) {
       submitButton.disabled = false;
       document.getElementById('ErrorMessage').innerHTML = "";
@@ -69,13 +68,12 @@
       submitButton.disabled = true;
     }
   });
-
   submitButton.addEventListener('click', function (event) {
     contactForm.submit();
   });
   </script>
 
-
+<!--description of company-->
 <div class="aboutuscolumn middle">
   <h2>About us</h2>
   <p>Our name Vêtements is a french translation of the word clothing.</p>
@@ -85,7 +83,7 @@
 
 
 
-
+<!--where the company is based-->
 <div class="aboutuscolumn side">
   <h2>Address</h2>
   <p>School of Computer Science, Jack Cole Building</p>

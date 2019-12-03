@@ -74,7 +74,6 @@
 
 }
 
-
 input[type=text], input[type=email] {
   height:30px;
   width:400px;
@@ -86,7 +85,6 @@ input[type=text], input[type=email] {
 input[type=text]:focus, input[type="email"]:focus {
   width: 40%
 }
-
 
 .text1{
   text-align: center;
