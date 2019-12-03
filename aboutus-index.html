@@ -33,33 +33,26 @@
       <a class="py-2 d-none d-md-inline-block" href="aboutus-index.html">About Us</a>
     </div>
   </nav>
-   <div class="aboutusrow">
-<div class="aboutuscolumn side">
+  <div class="aboutuscolumn side">
   <h2>Team Members</h2>
   <p>Yuki WU</p>
   <p>Milly Henderson</p>
   <p>Lea Racine</p>
-  
-  <div class="contact-form">
-  <h2>Contact Form</h2>
-  <p id="validationMessage"></p>
-  <form action="https://www.enformed.io/biezggmn" method="POST">
+  <form id="contactForm" action="https://www.enformed.io/biezggmn" method="POST">
+    <!--https://itnext.io/https-medium-com-joshstudley-form-field-validation-with-html-and-a-little-javascript-1bda6a4a4c8c-->
+    <h2>Contact Form</h2>
 
-    <div class = "form-group">
-      <p>Name</p>
-      <input id="userName" name="user_Name" size="4" type="text" class="form-control"/>
-    </div>
-
-    <div class = "form-group">
-      <p>Email</p>
-      <input id="userEmail" name="email" size="35" type="text" class="form_control"/>
-    </div>
-
+    <label>Name</label><br>
+    <input type="text" name="name" id="userName"><br>
+    <label>Email</label><br>
+    <input type="email" name="email" id="emailField" required>
     <input type="hidden" name="*default_email" value="vetementscompany@gmail.com" />
     <input type="hidden" name="*reply" value="email" />
-    <button type="submit">Submit</button>
+    <input type="hidden" name="*redirect" value="https://www.enformed.io/biezggmn" />
+    <button id="submitButton" disabled>Submit</button>
   </form>
-  </div>
+  <label id="ErrorMessage"></label>
+
 </div>
 
 <div class="aboutuscolumn middle">
